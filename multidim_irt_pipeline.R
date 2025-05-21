@@ -9,7 +9,7 @@ suppressMessages(library(future.apply))
 
 # ------------------------------ CONFIG ---------------------------------------
 # Path to CSV with all responses
-csv_path  <- "path/to/MICRODADOS_ENEM_2023.csv"      # update
+csv_path  <- "B:/Corpus/enem/microdados_enem_2023/DADOS/MICRODADOS_ENEM_2023.csv"
 model_dir <- "models"                                 # directory with *_3PL.rds
 
 # Number of workers for parallel processing
